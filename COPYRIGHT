@@ -1,0 +1,119 @@
+This project with great thanks for all authors (information about authors could be find in the sites linked in list below) uses following components with following licenses:
+
+Python 3
+
+https://docs.python.org/3/license.html
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved.
+
+asgiref
+https://github.com/django/asgiref/blob/main/LICENSE
+
+autopep8 https://github.com/hhatto/autopep8/blob/master/LICENSE
+
+python-certifi
+https://github.com/certifi/python-certifi/blob/master/LICENSE
+
+chardet
+https://github.com/chardet/chardet/blob/master/LICENSE
+
+coveragepy
+https://github.com/nedbat/coveragepy/blob/master/LICENSE.txt
+
+dataclasses https://github.com/ericvsmith/dataclasses/blob/master/LICENSE.txt
+
+dj-database-url https://github.com/kennethreitz/dj-database-url/blob/master/LICENSE
+
+Django
+https://github.com/django/django/blob/main/LICENSE
+
+django-cors-headers https://github.com/adamchainz/django-cors-headers/blob/main/LICENSE
+
+django-heroku https://github.com/heroku/django-heroku/blob/master/LICENSE
+
+djangorestframework https://github.com/encode/django-rest-framework/blob/master/LICENSE.md
+
+djongo
+https://github.com/nesdis/djongo/blob/master/LICENSE
+
+dnspython https://github.com/rthalley/dnspython/blob/master/LICENSE
+
+gunicorn https://github.com/benoitc/gunicorn/blob/master/LICENSE
+
+idna
+https://github.com/kjd/idna/blob/master/LICENSE.md
+
+Pillow
+https://github.com/python-pillow/Pillow/blob/master/LICENSE
+
+pycodestyle https://github.com/PyCQA/pycodestyle/blob/master/LICENSE
+
+psycopg2 https://github.com/psycopg/psycopg2/blob/master/LICENSE 
+
+pymongo
+https://github.com/mongodb/mongo-python-driver/blob/master/LICENSE
+
+pytz
+https://pythonhosted.org/pytz/#license
+
+requests
+https://github.com/psf/requests/blob/master/LICENSE
+
+sqlparse
+https://github.com/andialbrecht/sqlparse/blob/master/LICENSE
+
+toml https://github.com/uiri/toml/blob/master/LICENSE
+
+urllib3
+https://github.com/urllib3/urllib3/blob/main/LICENSE.txt
+
+whitenoise https://github.com/evansd/whitenoise/blob/master/LICENSE
+
+Also great thanks for samples of docker's config to all authors which listed below and have source files under following licenses:
+
+wiamsuri/django-gunicorn-nginx-docker https://github.com/wiamsuri/django-gunicorn-nginx-docker/blob/master/LICENSE.txt
+
+balanpradeepkumar/docker_django_mongodb https://github.com/balanpradeepkumar/docker_django_mongodb/blob/master/LICENSE
+
+Text materials from Wikipedia licensed under Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA 3.0) https://creativecommons.org/licenses/by/3.0/deed.en:
+
+https://en.wikipedia.org/wiki/Sydney
+
+https://en.wikipedia.org/wiki/Tokyo
+
+https://en.wikipedia.org/wiki/Cairo
+
+https://en.wikipedia.org/wiki/Moscow
+
+https://en.wikipedia.org/wiki/Mexico_City
+
+https://en.wikipedia.org/wiki/S%C3%A3o_Paulo
+
+https://en.wikipedia.org/wiki/McMurdo_Station
+
+McMurdo station images  Alan Light (https://www.flickr.com/photos/alan_light/) licensed under Creative Commons Attribution 2.0 Generic license  (CC BY 2.0) https://creativecommons.org/licenses/by/2.0/
+
+Other images from Pixabay.com  under Pixabay License. https://pixabay.com/service/license/
+
+All content from this project summury licensed under Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA 3.0)
+
+For deploying to Heroku was used this buildpacks under following lisences:
+
+mars/create-react-app-buildpack  https://github.com/mars/create-react-app-buildpack/blob/master/LICENSE
+
+heroku/heroku-buildpack-python  https://github.com/heroku/heroku-buildpack-python/blob/main/LICENSE
+
+docker https://github.com/docker/docker.github.io/blob/master/LICENSE
+
+mongo https://github.com/mongodb/mongo/blob/master/LICENSE-Community.txt
+
+docker-node https://github.com/nodejs/docker-node https://github.com/nodejs/docker-node/blob/main/LICENSE
+
+nodejs https://github.com/nodejs/node/blob/master/LICENSE

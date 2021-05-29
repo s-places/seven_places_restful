@@ -1,0 +1,51 @@
+version: "3.1"
+
+services:
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: need_to_change
+      MONGO_INITDB_ROOT_PASSWORD: need_to_change
+      MONGO_INITDB_DATABASE: continents
+    ports:
+      - "127.0.0.1:27017:27017"
+
+  seven_places:
+    build: .
+    image: gunicorn
+    restart: always
+    ports:
+      - "8000:8000"
+    command: "gunicorn --workers=2 --bind=0.0.0.0:8000 seven_places.wsgi:application"
+    links:
+      - mongo
+    depends_on:
+      - make_migrations
+
+  make_migrations:
+    build: .
+    image: seven_places_makemigrations
+    command: python manage.py makemigrations
+    links:
+      - mongo
+    depends_on:
+      - migrate
+
+  migrate:
+    build: .
+    image: seven_places_migrate
+    command: python manage.py migrate
+    links:
+      - mongo
+    depends_on:
+      - mongo
+
+  seven_places_ui:
+    build: ../../React/seven_places_ui
+    image: seven_places_ui
+    ports:
+     - "80:80"
+    environment:
+     - NGINX_HOST=localhost
+     - NGINX_PORT=80
